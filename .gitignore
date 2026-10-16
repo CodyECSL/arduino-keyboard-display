@@ -1,0 +1,16 @@
+
+/.pio
+/build
+*.zip
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+/example/.pio
+/managed_components
+/dependencies.lock
+__pycache__/
+mount/ref/
+mount/out/
+mount/stl/cradle.stl
+mount/stl/tower_cradle.stl
+mount/stl/
+mount/v1_printed/fit_test.stl

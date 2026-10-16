@@ -1,0 +1,17 @@
+# fix for build issue
+CONFIG_FREERTOS_HZ=1000
+CONFIG_TINYUSB_HID_COUNT=1
+CONFIG_TINYUSB_CDC_ENABLED=n
+CONFIG_TINYUSB_MSC_ENABLED=n
+CONFIG_ESP_CONSOLE_SECONDARY_NONE=y
+CONFIG_FATFS_LFN_HEAP=y
+# 1.5 MB app slot (the default 1 MB is nearly full). NVS stays at 0x9000, so settings survive.
+CONFIG_PARTITION_TABLE_SINGLE_APP_LARGE=y
+# The game redraws the whole screen every frame; the debug build and 160 MHz were far too slow for it.
+CONFIG_COMPILER_OPTIMIZATION_PERF=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+# Event task runs scan_done and the Wi-Fi event handlers; the default 2304 bytes is too small.
+CONFIG_ESP_SYSTEM_EVENT_TASK_STACK_SIZE=3584
+# Fewer static Wi-Fi buffers (about 22 KB less internal RAM): the debug link does not need the throughput.
+CONFIG_ESP_WIFI_STATIC_TX_BUFFER_NUM=6
+CONFIG_ESP_WIFI_STATIC_RX_BUFFER_NUM=6
