@@ -38,6 +38,15 @@ Base setup from https://github.com/NorthernMan54/JC3248W535EN (ESP-IDF 5.2.1, LV
 
 ![Crossy Parkway: the title screen over the isometric game world](screenshots/9-live-175329.png)
 
+<img src="screenshots/display-on-keyboard.png" alt="The display on a keyboard, playing the screensaver" width="120">
+<img src="screenshots/8-live-175255.png" alt="Media page" width="120">
+<img src="screenshots/7-live-175237.png" alt="AI page" width="120">
+<img src="screenshots/2-labescape-161m.png" alt="LabEscape game" width="120">
+<img src="screenshots/3-crossy-score-7.png" alt="Crossy Parkway title" width="120">
+<img src="screenshots/4-crossy-score-22.png" alt="Crossy Parkway game" width="120">
+<img src="screenshots/6-live-175201.png" alt="Settings: screensaver" width="120">
+<img src="screenshots/Screenshot_20261011_180145.png" alt="The keyboard mount in OpenSCAD" width="120">
+
 ## Screensaver
 
 The screensaver plays the chosen video from `/mjpeg/` on the SD card, in a loop (default `SAVER.mjpeg`). If there is no card or no
