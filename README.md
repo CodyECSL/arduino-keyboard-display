@@ -34,6 +34,10 @@ The icon source is `tools/assets/claude_icon.svg`. Regenerate the image with
 
 Base setup from https://github.com/NorthernMan54/JC3248W535EN (ESP-IDF 5.2.1, LVGL 8.4.0).
 
+## Screenshots
+
+![Crossy Parkway: the title screen over the isometric game world](screenshots/9-live-175329.png)
+
 ## Screensaver
 
 The screensaver plays the chosen video from `/mjpeg/` on the SD card, in a loop (default `SAVER.mjpeg`). If there is no card or no
